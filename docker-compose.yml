@@ -1,5 +1,5 @@
 services:
-  # Serviço para PHP
+  # Serviï¿½o para PHP
   app:
     image: php:8.2-fpm
     container_name: laravel_app
@@ -14,7 +14,7 @@ services:
     networks:
       - laravel
 
-  # Serviço para o Nginx
+  # Serviï¿½o para o Nginx
   webserver:
     image: nginx:alpine
     container_name: laravel_webserver
@@ -29,7 +29,7 @@ services:
     networks:
       - laravel
 
-  # Serviço para o MySQL
+  # ServiÃ§  o para o MySQL
   db:
     image: mysql:8.0
     container_name: laravel_db
